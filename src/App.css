@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.green{
+  background-color: green;
+  color:white;
+}
+.try{
+  font-size:0.75rem;
+}
+.font-size-10 {
+  font-size: 10px;
+}
+
+
+
+.nav_link:hover {
+  text-decoration: underline; 
+}
+
+
+.nav_link1:hover {
+  font-weight: bold;
+}
+
+.nav_link2:hover {
+  background-color: lightgray;
+}
+
+
+
+.black{
+  font-weight: bold;
+  text-align: left;
+  font-size: 14px;
+}
+
+
+.black-1{
+  font-weight: bold;
+  text-align: left;
+  font-size: 14px;
+}
+
+.black-2{
+  font-weight: bold;
+  text-align: left;
+  font-size: 10px;
+}
+
+.ind{
+  font-weight: bold;
+  text-align: left;
+  font-size: 12px;
+}
+.date{
+  font-size:8px;
+  text-align: left;
+}
+
+.info{
+  font-size:11px;
+  text-align: left;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.background-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url('./components/Images/black.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.boton {
+  background-color: blue;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.text-left {
+  flex: 1;
+  border-right: 2px solid black;
+  padding-right: 10px; 
+  font-size: small;
+}
+
+.text-right {
+  flex: 1;
+  padding-left: 10px; 
+  font-size: x-small;
+}
+
+.custom-dropdown .dropdown-menu {
+  display: none;
+}
+
+.custom-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.news-container {
+  width: 100%;
+  overflow-x: auto; /* Habilita la barra de desplazamiento horizontal */
+}
+
+.news-wrapper {
+  display: flex;
+  /* Ajusta la dirección del flex a fila para que las noticias se coloquen horizontalmente */
+}
+
+.news {
+  flex: 0 0 auto;
+  width: 200px; /* Anchura de cada noticia */
+  height: 100px; /* Altura de cada noticia */
+  margin-right: 10px; /* Espacio entre cada noticia */
+  background-color: lightgray; /* Color de fondo de las noticias */
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

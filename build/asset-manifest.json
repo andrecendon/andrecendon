@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/andrecendon/build/static/css/main.dfd9246b.css",
+    "main.js": "/andrecendon/build/static/js/main.8f9a8f33.js",
+    "static/media/pr.mp4": "/andrecendon/build/static/media/pr.a8392de30ef7ee747762.mp4",
+    "static/media/pr2.mp4": "/andrecendon/build/static/media/pr2.db21f468cd049f23b575.mp4",
+    "static/media/600x400.png": "/andrecendon/build/static/media/600x400.278adce1435a2b0ddc0f.png",
+    "index.html": "/andrecendon/build/index.html",
+    "main.dfd9246b.css.map": "/andrecendon/build/static/css/main.dfd9246b.css.map",
+    "main.8f9a8f33.js.map": "/andrecendon/build/static/js/main.8f9a8f33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfd9246b.css",
+    "static/js/main.8f9a8f33.js"
+  ]
+}
